@@ -1,0 +1,207 @@
+*{
+    background-color: #ffeebc;
+}
+/* Encabezado de pagina */
+.navegacion a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #e2e3e7;
+    background-color: #9bd3ae;
+    width: auto;
+    height: auto;
+}
+.navegacion a:hover{
+    color: black;
+}
+.navegacion{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(1, 30px);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4px;
+}
+.img_banner{
+    width: 700px;
+    height: 250px;
+}
+/* Footer */
+
+.section_footer{
+    width: 200px;
+}
+.info_local{
+    display: grid;
+}
+.img_ubi {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+.img_wp{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+.img_insta{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+.info_local a{
+    text-decoration: none;
+    color: black;
+}
+.copy{
+    text-align: center;
+    font-weight: bold;
+}
+/* PRODUCTOS */
+.titulo-producto{
+    text-align: center;
+    color: #e2e3e7;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(4, 250px);
+}
+.aceitecoco{
+    padding-top: 25px;
+
+}
+.img_aceitecoco{
+    width: 180px;
+    height: 180px;
+}
+.aceiteoliva{
+    padding-top: 25px;
+}
+.img_aceiteoliva{
+    width: 180px;
+    height: 180px;
+}
+.alfajores{
+    padding-top: 25px;
+}
+.img_alfajores{
+    width: 180px;
+    height: 180px;
+}
+.mermelada{
+    padding-top: 25px;
+}
+.img_mermelada{
+    width: 180px;
+    height: 180px;
+}
+
+.galletitas{
+    padding-top: 25px;
+}
+.img_galletitas{
+    width: 180px;
+    height: 180px;
+}
+.miniscones{
+    padding-top: 25px;
+}
+.img_miniscones{
+    width: 180px;
+    height: 180px;
+}
+.alfajores{
+    padding-top: 25px;
+}
+.img_alfajores{
+    width: 180px;
+    height: 180px;
+}
+.yerba{
+    padding-top: 25px;
+}
+.img_yerba{
+    width: 180px;
+    height: 180px;
+}
+.yerba_kalena{
+    padding-top: 25px;
+}
+.img_yerbakalena{
+    width: 180px;
+    height: 180px;
+}
+.blend_mate{
+    padding-top: 25px;
+}
+.img_blendmate{
+    width: 180px;
+    height: 180px;
+}
+.mermelada{
+    padding-top: 25px;
+}
+.img_mermelada{
+    width: 180px;
+    height: 180px;
+}
+.milasoja{
+    padding-top: 25px;
+}
+.img_milasoja{
+    width: 180px;
+    height: 180px;
+}
+.tofu {
+    padding-top: 25px;
+}
+.img_tofu{
+    width: 180px;
+    height: 180px;
+}
+.yougurt_natural{
+    padding-top: 25px;
+}
+.img_yougurtnatural{
+    width: 180px;
+    height: 180px;
+}
+
+/* RECOMENDACIONES */
+.recomendaciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+.img_acido_hialuronico{
+    width: 250px;
+    height: 450px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.img_clorofila{
+    width: 250px;
+    height: 450px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.lista{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+/* MEDIA */
+@media screen and (max-width: 768px) {
+    .img_banner{
+        width: 650px;
+        height: 200px;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(6, 250px);
+    }
+}
