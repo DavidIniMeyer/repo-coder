@@ -6,14 +6,18 @@ body{
     padding-right: 50px;
 }
 .banner{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 4px;
+    width: 100%;
+    height: 300px;
+
 }
-.img_banner{
+/* .img_banner{
     width: 700px;
     height: 250px;
 }
+.ban-yerba{
+    width: 700px;
+    height: 250px;
+} */
 /* Footer */
 
 .section_footer{
