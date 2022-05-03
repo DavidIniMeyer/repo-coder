@@ -1,3 +1,7 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
 body{
     background-color: #d6bb6b;
 }
@@ -10,14 +14,10 @@ body{
     height: 300px;
 
 }
-/* .img_banner{
-    width: 700px;
-    height: 250px;
+.celdas-a-rellenar{
+    background-color: #e7d49c
 }
-.ban-yerba{
-    width: 700px;
-    height: 250px;
-} */
+
 /* Footer */
 
 .section_footer{
@@ -187,6 +187,7 @@ body{
     text-decoration: black;
     border: solid 3px black;
 }
+
 /* MEDIA */
 @media screen and (max-width: 768px) {
     .img_banner{
