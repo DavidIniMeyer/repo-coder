@@ -1,23 +1,9 @@
-*{
-    background-color: #ffeebc;
+body{
+    background-color: #d6bb6b;
 }
-/* Encabezado de pagina */
-.navegacion a{
-    text-decoration: none;
-    font-size: x-large;
-    color: #e2e3e7;
-    background-color: #9bd3ae;
-    width: auto;
-    height: auto;
-}
-.navegacion a:hover{
-    color: black;
-}
-.navegacion{
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(1, 30px);
+
+.nav-tex{
+    padding-right: 50px;
 }
 .banner{
     display: flex;
