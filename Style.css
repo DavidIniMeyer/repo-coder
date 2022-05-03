@@ -58,106 +58,163 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(4, 250px);
+    
 }
 .aceitecoco{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 110px;
+    border-radius: 20px;
 
 }
 .img_aceitecoco{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .aceiteoliva{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 110px;
+    border-radius: 20px;
 }
 .img_aceiteoliva{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .alfajores{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_alfajores{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .mermelada{
-    padding-top: 25px;
+    padding-top: 15px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_mermelada{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 
 .galletitas{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_galletitas{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .miniscones{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_miniscones{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .alfajores{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_alfajores{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .yerba{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_yerba{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .yerba_kalena{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_yerbakalena{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .blend_mate{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_blendmate{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .mermelada{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_mermelada{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .milasoja{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_milasoja{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .tofu {
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_tofu{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 .yougurt_natural{
-    padding-top: 25px;
+    padding-top: 5px;
+    border: 2px outset black;
+    padding-left: 75px;
+    border-radius: 20px;
 }
 .img_yougurtnatural{
     width: 180px;
     height: 180px;
+    border-radius: 20px;
 }
 
 /* RECOMENDACIONES */
