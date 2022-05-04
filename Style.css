@@ -14,9 +14,7 @@ body{
     height: 300px;
 
 }
-.celdas-a-rellenar{
-    background-color: #e7d49c
-}
+
 
 /* Footer */
 
@@ -72,6 +70,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_aceitecoco:hover{
+    transform: scale(1.5,1.5);
+}
 .aceiteoliva{
     padding-top: 5px;
     border: 2px outset black;
@@ -83,6 +84,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_aceiteoliva:hover{
+    transform: scale(1.5,1.5);
+}
 .alfajores{
     padding-top: 5px;
     border: 2px outset black;
@@ -93,6 +97,9 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 20px;
+}
+.img_alfajores:hover{
+    transform: scale(1.5,1.5);
 }
 .mermelada{
     padding-top: 15px;
@@ -105,7 +112,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
-
+.img_mermelada:hover{
+    transform: scale(1.5,1.5);
+}
 .galletitas{
     padding-top: 5px;
     border: 2px outset black;
@@ -116,6 +125,9 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 20px;
+}
+.img_galletitas:hover{
+    transform: scale(1.5,1.5);
 }
 .miniscones{
     padding-top: 5px;
@@ -128,6 +140,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_miniscones:hover{
+    transform: scale(1.5,1.5);
+}
 .alfajores{
     padding-top: 5px;
     border: 2px outset black;
@@ -138,6 +153,9 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 20px;
+}
+.img_alfajores:hover{
+    transform: scale(1.5,1.5);
 }
 .yerba{
     padding-top: 5px;
@@ -150,6 +168,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_yerba:hover{
+    transform: scale(1.5,1.5);
+}
 .yerba_kalena{
     padding-top: 5px;
     border: 2px outset black;
@@ -160,6 +181,9 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 20px;
+}
+.img_yerbakalena:hover{
+    transform: scale(1.5,1.5);
 }
 .blend_mate{
     padding-top: 5px;
@@ -172,6 +196,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_blendmate:hover{
+    transform: scale(1.5,1.5);
+}
 .mermelada{
     padding-top: 5px;
     border: 2px outset black;
@@ -182,6 +209,9 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 20px;
+}
+.img_mermelada:hover{
+    transform: scale(1.5,1.5);
 }
 .milasoja{
     padding-top: 5px;
@@ -194,6 +224,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_milasoja:hover{
+    transform: scale(1.5,1.5);
+}
 .tofu {
     padding-top: 5px;
     border: 2px outset black;
@@ -205,6 +238,9 @@ body{
     height: 180px;
     border-radius: 20px;
 }
+.img_tofu:hover{
+    transform: scale(1.5,1.5);
+}
 .yougurt_natural{
     padding-top: 5px;
     border: 2px outset black;
@@ -215,6 +251,9 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 20px;
+}
+.img_yougurtnatural:hover{
+    transform: scale(1.5,1.5);
 }
 
 /* RECOMENDACIONES */
@@ -244,6 +283,26 @@ body{
     text-decoration: black;
     border: solid 3px black;
 }
+.Local{
+    display: grid;
+    grid-template-columns: repeat(2,60% 40%);
+}
+.foto-local{
+    width: 100%;
+    height: 100%;
+}
+.Resumen-local{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Formulario{
+    width: 100%;
+    height: 100%;
+}
+.celdas-a-rellenar{
+    background-color: #e7d49c;
+}
+
 
 /* MEDIA */
 @media screen and (max-width: 768px) {
