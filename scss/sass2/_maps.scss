@@ -1,0 +1,18 @@
+@import "../variables/variables";
+
+$nav:(
+    derecha: $espacio-derecho,
+    centro: $centrar,
+    ocupacion: $ocupacion-total,
+    tamano: $height-nav,
+);
+.nav-tex{
+    padding-right: map-get($nav, derecha);
+}
+.divbanner{
+    justify-content: map-get($nav, centro);
+}
+.banner{
+    width: map-get($nav, ocupacion);
+    height: map-get($nav, tamano);
+}

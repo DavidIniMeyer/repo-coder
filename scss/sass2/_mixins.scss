@@ -1,0 +1,19 @@
+@import "../variables/variables";
+
+@mixin celda-imagen-producto {
+    padding-top: 5px;
+    border: 2px outset $negro;
+    padding-left: 5rem;
+    border-radius: 2rem;
+}
+@mixin img-productos {
+    width: 11.25rem;
+    height: 11.25rem;
+    border-radius: 1.25rem;
+}
+@mixin img-recomendaciones {
+    width: 15.62rem;
+    height: 28.1rem;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}

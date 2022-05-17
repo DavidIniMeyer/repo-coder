@@ -1,4 +1,16 @@
 @import "variables/variables";
 @import "sass2/maps";
 @import "sass2/mixins";
+@import "partials/contactos";
+@import "partials/index";
+@import "partials/preguntas";
+@import "partials/productos";
+@import "partials/recomendaciones";
 
+*{
+    margin: 1px;
+    padding: 1px;
+}
+body{
+    background-color: #d6bb6b;
+}

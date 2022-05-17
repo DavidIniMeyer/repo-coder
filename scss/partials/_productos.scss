@@ -1,0 +1,23 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+.titulo-producto{
+    text-align: $centrar;
+    color: #e2e3e7;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(4, 250px);
+    
+}
+.celda-prod{
+    @include celda-imagen-producto
+}
+.img-prod{
+    @include img-productos
+}
+.img-prod:hover{
+    transform: scale(1.2,1.2);
+}
+
