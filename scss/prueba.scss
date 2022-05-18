@@ -14,3 +14,14 @@
 body{
     background-color: #d6bb6b;
 }
+@media screen and (max-width: 768px) {
+    .img_banner{
+        width: 40.625rem;
+        height: 12.5rem;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(6, 250px);
+    }
+}

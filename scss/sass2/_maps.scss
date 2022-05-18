@@ -25,4 +25,23 @@ $footer:(
     negro: $negro,
     centro: $centrar,
     letra-imp: bold,
-)
+);
+.section_footer{
+    width: map-get($footer, wid-section);
+}
+.info_local{
+    display: map-get($footer, grid);
+}
+.img_foot{
+    width: map-get($footer, wid-hei);
+    height: map-get($footer, wid-hei);
+    padding-right: 5px;
+}
+.info_local a{
+    text-decoration: map-get($footer, sin-decoracion);
+    color: map-get($footer, negro);
+}
+.copy{
+    text-align: map-get($footer, centro);
+    font-weight: map-get($footer, letra-imp);
+}

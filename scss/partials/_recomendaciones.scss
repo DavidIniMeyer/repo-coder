@@ -1,0 +1,11 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+.recomendaciones{
+    display: $flex;
+    flex-direction: $horizontal;
+    justify-content: $espaciado;
+}
+.img-recomend{
+    @include img-recomendaciones
+}

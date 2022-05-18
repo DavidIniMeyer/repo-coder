@@ -1,0 +1,14 @@
+@import "../variables/variables";
+
+.Local{
+    display: $grid;
+    grid-template-columns: repeat(2,60% 40%);
+}
+.foto-local{
+    width: $ocupacion-total;
+    height: $ocupacion-total;
+}
+.Resumen-local{
+    font-size: x-large;
+    font-family: $letra;
+}

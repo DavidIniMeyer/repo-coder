@@ -1,0 +1,10 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+.Formulario{
+    width: $ocupacion-total;
+    height: $ocupacion-total;
+}
+.celdas-a-rellenar{
+    background-color: #e7d49c;
+}

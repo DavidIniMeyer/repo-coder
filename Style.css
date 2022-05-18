@@ -22,7 +22,7 @@ body{
 
 /* Footer */
 
-.section_footer{
+/* .section_footer{
     width: 12.5rem;
 }
 .info_local{
@@ -50,7 +50,7 @@ body{
 .copy{
     text-align: center;
     font-weight: bold;
-}
+} */
 /* PRODUCTOS */
 /* .titulo-producto{
     text-align: center;
@@ -265,8 +265,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}  */
-/* .img_acido_hialuronico{
+}  
+.img_acido_hialuronico{
     width: 15.62rem;
     height: 28.1rem;
     padding-top: 25px;
@@ -278,16 +278,11 @@ body{
     padding-top: 25px;
     padding-bottom: 50px;
 } */
-.lista{
+/* .lista{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
-}
-.textindex{
-    text-align: center;
-    text-decoration: black;
-    border:  3px solid black;
-}
-.Local{
+} */
+/* .Local{
     display: grid;
     grid-template-columns: repeat(2,60% 40%);
 }
@@ -298,18 +293,18 @@ body{
 .Resumen-local{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.Formulario{
+} */
+/* .Formulario{
     width: 100%;
     height: 100%;
 }
 .celdas-a-rellenar{
     background-color: #e7d49c;
-}
+} */
 
 
 /* MEDIA */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .img_banner{
         width: 40.625rem;
         height: 12.5rem;
@@ -319,4 +314,4 @@ body{
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(6, 250px);
     }
-}
+} */
