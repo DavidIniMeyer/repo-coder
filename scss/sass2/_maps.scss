@@ -18,8 +18,9 @@ $nav:(
 }
 
 $footer:(
-    wid-section: 12.5rem,
-    wid-hei: 25px,
+    wid-section: 14rem,
+    hei: 25px,
+    wid: 40px,
     grid: $grid,
     sin-decoracion: $decoracion,
     negro: $negro,
@@ -33,9 +34,10 @@ $footer:(
     display: map-get($footer, grid);
 }
 .img_foot{
-    width: map-get($footer, wid-hei);
-    height: map-get($footer, wid-hei);
-    padding-right: 5px;
+    width: map-get($footer, wid);
+    height: map-get($footer, hei);
+    padding-right: 10px;
+    font-size: 20px;
 }
 .info_local a{
     text-decoration: map-get($footer, sin-decoracion);

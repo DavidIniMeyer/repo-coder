@@ -14,7 +14,7 @@
 body{
     background-color: #d6bb6b;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
     .img_banner{
         width: 40.625rem;
         height: 12.5rem;
@@ -23,5 +23,12 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(6, 250px);
+    }
+}
+@media  screen and (max-width: 560px) {
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(12);
     }
 }

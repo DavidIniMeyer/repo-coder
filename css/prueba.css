@@ -9,15 +9,16 @@
   height: 18.75rem; }
 
 .section_footer {
-  width: 12.5rem; }
+  width: 14rem; }
 
 .info_local {
   display: grid; }
 
 .img_foot {
-  width: 25px;
+  width: 40px;
   height: 25px;
-  padding-right: 5px; }
+  padding-right: 10px;
+  font-size: 20px; }
 
 .info_local a {
   text-decoration: none;
@@ -87,7 +88,7 @@
 body {
   background-color: #d6bb6b; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .img_banner {
     width: 40.625rem;
     height: 12.5rem; }
@@ -95,3 +96,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(6, 250px); } }
+
+@media screen and (max-width: 560px) {
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(12); } }
