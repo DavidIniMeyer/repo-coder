@@ -16,3 +16,13 @@ $nav:(
     width: map-get($nav, ocupacion);
     height: map-get($nav, tamano);
 }
+
+$footer:(
+    wid-section: 12.5rem,
+    wid-hei: 25px,
+    grid: $grid,
+    sin-decoracion: $decoracion,
+    negro: $negro,
+    centro: $centrar,
+    letra-imp: bold,
+)

@@ -1,12 +1,12 @@
-*{
+/* *{
     margin: 1px;
     padding: 1px;
 }
 body{
     background-color: #d6bb6b;
-}
+} */
 
-.nav-tex{
+/* .nav-tex{
     padding-right: 3.5rem;
 }
 .divbanner{
@@ -16,7 +16,7 @@ body{
 .banner{
     width: 100%;
     height: 18.75rem;
-}
+} */
 
 
 
@@ -52,7 +52,7 @@ body{
     font-weight: bold;
 }
 /* PRODUCTOS */
-.titulo-producto{
+/* .titulo-producto{
     text-align: center;
     color: #e2e3e7;
 }
@@ -61,7 +61,7 @@ body{
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(4, 250px);
     
-}
+} */
 /* .aceitecoco{
     padding-top: 5px;
     border: 2px outset black;
@@ -74,9 +74,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_aceitecoco:hover{
+/* .img_aceitecoco:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .aceiteoliva{
     padding-top: 5px;
     border: 2px outset black;
@@ -88,9 +88,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_aceiteoliva:hover{
+/* .img_aceiteoliva:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .alfajores{
     padding-top: 5px;
     border: 2px outset black;
@@ -102,9 +102,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_alfajores:hover{
+/* .img_alfajores:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .mermelada{
     padding-top: 15px;
     border: 2px outset black;
@@ -116,9 +116,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_mermelada:hover{
+/* .img_mermelada:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .galletitas{
     padding-top: 5px;
     border: 2px outset black;
@@ -130,9 +130,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_galletitas:hover{
+/* .img_galletitas:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .miniscones{
     padding-top: 5px;
     border: 2px outset black;
@@ -144,9 +144,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_miniscones:hover{
+/* .img_miniscones:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .alfajores{
     padding-top: 5px;
     border: 2px outset black;
@@ -158,9 +158,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_alfajores:hover{
+/* .img_alfajores:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .yerba{
     padding-top: 5px;
     border: 2px outset black;
@@ -172,9 +172,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_yerba:hover{
+/* .img_yerba:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .yerba_kalena{
     padding-top: 5px;
     border: 2px outset black;
@@ -186,9 +186,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_yerbakalena:hover{
+/* .img_yerbakalena:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .blend_mate{
     padding-top: 5px;
     border: 2px outset black;
@@ -200,9 +200,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_blendmate:hover{
+/* .img_blendmate:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .mermelada{
     padding-top: 5px;
     border: 2px outset black;
@@ -214,9 +214,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_mermelada:hover{
+/* .img_mermelada:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .milasoja{
     padding-top: 5px;
     border: 2px outset black;
@@ -228,9 +228,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_milasoja:hover{
+/* .img_milasoja:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .tofu {
     padding-top: 5px;
     border: 2px outset black;
@@ -242,9 +242,9 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_tofu:hover{
+/* .img_tofu:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* .yougurt_natural{
     padding-top: 5px;
     border: 2px outset black;
@@ -256,17 +256,17 @@ body{
     height: 11.25rem;
     border-radius: 1.25rem;
 } */
-.img_yougurtnatural:hover{
+/* .img_yougurtnatural:hover{
     transform: scale(1.2,1.2);
-}
+} */
 
 /* RECOMENDACIONES */
-.recomendaciones{
+/* .recomendaciones{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-} 
-.img_acido_hialuronico{
+}  */
+/* .img_acido_hialuronico{
     width: 15.62rem;
     height: 28.1rem;
     padding-top: 25px;
@@ -277,7 +277,7 @@ body{
     height: 28.1rem;
     padding-top: 25px;
     padding-bottom: 50px;
-}
+} */
 .lista{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
